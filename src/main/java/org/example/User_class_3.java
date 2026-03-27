@@ -1,0 +1,11 @@
+package org.example;
+
+public class User_class_3 {
+    void main(String[] args){
+        String name = "World";
+        if( args.length > 0){
+            name = args[0];
+        }
+        System.out.println("Hello," + name + "!");
+    }
+}
